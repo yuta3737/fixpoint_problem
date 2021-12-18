@@ -4,6 +4,7 @@
 $filename = 'log.txt';
 log.txtの部分に監視ログファイルを入力する
 
+## プログラムの説明
 
 ### $error = '-';
  ### if ( strpos( $txt,$error) === false )
