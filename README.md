@@ -9,18 +9,16 @@ log.txtの部分に監視ログファイルを入力する
 ### $error = '-';
  ### if ( strpos( $txt,$error) === false )
  エラーがある場合とエラーがない場合に分ける   
- 
- 
- 
+ <br>
  #### エラーがあった場合
  ### array_push($stock_part,$text_box[1]);
  エラーが起きたIPアドレスを保存する
  ### array_unique($stock_part);
  2回以上のエラーの場合は保存しないことにする   
- 
- 
- 
- 
+ ### echo $text_box[1];
+ エラーが起きたIPアドレスを表示する。
+ <br>
+ <br>
  #### エラーがなかった中で前回がエラーだった場合
  ### unset($stock_part[$delete_key]);
  保存したIPアドレスを消去する
